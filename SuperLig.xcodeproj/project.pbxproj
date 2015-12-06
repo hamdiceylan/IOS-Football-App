@@ -24,6 +24,8 @@
 		CC544FFC1C13A0B30085E5B5 /* PointTableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC544FFB1C13A0B30085E5B5 /* PointTableObject.swift */; };
 		CC544FFE1C13A1290085E5B5 /* PointTableBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC544FFD1C13A1290085E5B5 /* PointTableBLL.swift */; };
 		CC5450001C13A8700085E5B5 /* PointTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC544FFF1C13A8700085E5B5 /* PointTableCell.swift */; };
+		CCA753661C148EE70057D89A /* LiveScoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA753651C148EE70057D89A /* LiveScoreObject.swift */; };
+		CCA753681C14916E0057D89A /* LiveScoreBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA753671C14916E0057D89A /* LiveScoreBLL.swift */; };
 		CCFA7D7B1C1449D4003208CB /* ScorerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA7D7A1C1449D4003208CB /* ScorerObject.swift */; };
 		CCFA7D7D1C1449E3003208CB /* ScorerBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA7D7C1C1449E3003208CB /* ScorerBLL.swift */; };
 		CCFA7D7F1C144B48003208CB /* ScorerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA7D7E1C144B48003208CB /* ScorerTableCell.swift */; };
@@ -70,6 +72,8 @@
 		CC544FFB1C13A0B30085E5B5 /* PointTableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointTableObject.swift; sourceTree = "<group>"; };
 		CC544FFD1C13A1290085E5B5 /* PointTableBLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointTableBLL.swift; sourceTree = "<group>"; };
 		CC544FFF1C13A8700085E5B5 /* PointTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointTableCell.swift; sourceTree = "<group>"; };
+		CCA753651C148EE70057D89A /* LiveScoreObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveScoreObject.swift; sourceTree = "<group>"; };
+		CCA753671C14916E0057D89A /* LiveScoreBLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveScoreBLL.swift; sourceTree = "<group>"; };
 		CCFA7D7A1C1449D4003208CB /* ScorerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorerObject.swift; sourceTree = "<group>"; };
 		CCFA7D7C1C1449E3003208CB /* ScorerBLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorerBLL.swift; sourceTree = "<group>"; };
 		CCFA7D7E1C144B48003208CB /* ScorerTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorerTableCell.swift; sourceTree = "<group>"; };
@@ -172,6 +176,7 @@
 			children = (
 				CC544FFD1C13A1290085E5B5 /* PointTableBLL.swift */,
 				CCFA7D7C1C1449E3003208CB /* ScorerBLL.swift */,
+				CCA753671C14916E0057D89A /* LiveScoreBLL.swift */,
 			);
 			name = Business;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			children = (
 				CC544FFB1C13A0B30085E5B5 /* PointTableObject.swift */,
 				CCFA7D7A1C1449D4003208CB /* ScorerObject.swift */,
+				CCA753651C148EE70057D89A /* LiveScoreObject.swift */,
 			);
 			name = Object;
 			sourceTree = "<group>";
@@ -331,6 +337,7 @@
 				CCFA7D7F1C144B48003208CB /* ScorerTableCell.swift in Sources */,
 				CC544FF41C139FCA0085E5B5 /* Api.swift in Sources */,
 				CC544FEF1C139ED80085E5B5 /* MatchOfWeekVC.swift in Sources */,
+				CCA753661C148EE70057D89A /* LiveScoreObject.swift in Sources */,
 				CC544FFC1C13A0B30085E5B5 /* PointTableObject.swift in Sources */,
 				CC544FED1C139EBA0085E5B5 /* SkorerVC.swift in Sources */,
 				CC544FE91C139C1C0085E5B5 /* PointTableVC.swift in Sources */,
@@ -343,6 +350,7 @@
 				CC544FB81C13950B0085E5B5 /* AppDelegate.swift in Sources */,
 				CCFA7D7D1C1449E3003208CB /* ScorerBLL.swift in Sources */,
 				CC544FEB1C139C5B0085E5B5 /* LiveScoreVC.swift in Sources */,
+				CCA753681C14916E0057D89A /* LiveScoreBLL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
