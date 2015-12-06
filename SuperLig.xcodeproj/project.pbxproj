@@ -26,6 +26,7 @@
 		CC5450001C13A8700085E5B5 /* PointTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC544FFF1C13A8700085E5B5 /* PointTableCell.swift */; };
 		CCA753661C148EE70057D89A /* LiveScoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA753651C148EE70057D89A /* LiveScoreObject.swift */; };
 		CCA753681C14916E0057D89A /* LiveScoreBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA753671C14916E0057D89A /* LiveScoreBLL.swift */; };
+		CCA7536A1C1497000057D89A /* LiveScoreTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA753691C1497000057D89A /* LiveScoreTableCell.swift */; };
 		CCFA7D7B1C1449D4003208CB /* ScorerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA7D7A1C1449D4003208CB /* ScorerObject.swift */; };
 		CCFA7D7D1C1449E3003208CB /* ScorerBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA7D7C1C1449E3003208CB /* ScorerBLL.swift */; };
 		CCFA7D7F1C144B48003208CB /* ScorerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFA7D7E1C144B48003208CB /* ScorerTableCell.swift */; };
@@ -74,6 +75,7 @@
 		CC544FFF1C13A8700085E5B5 /* PointTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointTableCell.swift; sourceTree = "<group>"; };
 		CCA753651C148EE70057D89A /* LiveScoreObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveScoreObject.swift; sourceTree = "<group>"; };
 		CCA753671C14916E0057D89A /* LiveScoreBLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveScoreBLL.swift; sourceTree = "<group>"; };
+		CCA753691C1497000057D89A /* LiveScoreTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveScoreTableCell.swift; sourceTree = "<group>"; };
 		CCFA7D7A1C1449D4003208CB /* ScorerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorerObject.swift; sourceTree = "<group>"; };
 		CCFA7D7C1C1449E3003208CB /* ScorerBLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorerBLL.swift; sourceTree = "<group>"; };
 		CCFA7D7E1C144B48003208CB /* ScorerTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorerTableCell.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				CC544FEE1C139ED80085E5B5 /* MatchOfWeekVC.swift */,
 				CC544FFF1C13A8700085E5B5 /* PointTableCell.swift */,
 				CCFA7D7E1C144B48003208CB /* ScorerTableCell.swift */,
+				CCA753691C1497000057D89A /* LiveScoreTableCell.swift */,
 			);
 			name = ViewClasses;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				CC544FFE1C13A1290085E5B5 /* PointTableBLL.swift in Sources */,
 				CC544FF91C139FDE0085E5B5 /* PlistManager.swift in Sources */,
 				CC544FF81C139FDE0085E5B5 /* Enums.swift in Sources */,
+				CCA7536A1C1497000057D89A /* LiveScoreTableCell.swift in Sources */,
 				CCFA7D7B1C1449D4003208CB /* ScorerObject.swift in Sources */,
 				CC544FFA1C139FDE0085E5B5 /* SwiftyJSON.swift in Sources */,
 				CC544FB81C13950B0085E5B5 /* AppDelegate.swift in Sources */,
