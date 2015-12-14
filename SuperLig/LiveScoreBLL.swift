@@ -10,7 +10,7 @@ import Foundation
 class LiveScoreBll{
     func GetLiveScore() -> [LiveScoreObject]{
         let api = Api()
-        let json  = api.makeHTTPRequest(HttpRequestType.GET, method: "TFF/LiveScore/1" , parameter: "" )
+        let json  = api.makeHTTPRequest(HttpRequestType.GET, method: "TFF/LiveScore/0" , parameter: "" )
         var liveScoreList = [LiveScoreObject]()
         for var i = 0; i<json.count;++i{
             let  liveScoreObject = LiveScoreObject()
